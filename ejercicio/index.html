@@ -1,0 +1,67 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<h1>Definicion y ejemplo de los siguientes conceptos</h1>
+		<div>
+			<header>
+				<h2>Position</h2>
+			</header>
+			<p>Se utiliza para especificar el método de posicionamiento de un elemento en una página web.</p>
+		</div>
+		<div>
+			<header>
+				<h2>Position relative</h2>
+			</header>
+			<p>
+				Se desplaza con respecto a su posición normal. Es decir, puedes usar las propiedades top, right, bottom y left
+				para mover el elemento desde su posición original.
+			</p>
+			<div class="contenedor">
+				<p class="relative">parrafo</p>
+			</div>
+		</div>
+		<div>
+			<header>
+				<h2>Position absolute</h2>
+			</header>
+			<p>Se elimina del flujo normal del documento y se posiciona con respecto al primer ancestro posicionado</p>
+			<div class="ancestro">
+				<p class="absolute">parrafo</p>
+			</div>
+		</div>
+		<div>
+			<header>
+				<h2>Position fixed</h2>
+			</header>
+			<p>
+				Se elimina del flujo normal del documento y se posiciona con respecto a la ventana del navegador es decir el
+				view port
+			</p>
+			<div class="fixed">fixed</div>
+		</div>
+		<div>
+			<header>
+				<h2>Top, Right, Bottom y Left</h2>
+			</header>
+			<p>Son las propiedades que nos ayudan a desplazar los elementos</p>
+		</div>
+		<div>
+			<header>
+				<h2>Z-index</h2>
+			</header>
+			<p>Se utiliza para controlar el orden de los elementos posicionados en una página web.</p>
+
+			<div class="contenedor-index">
+				<p class="caja-1"></p>
+				<p class="caja-2"></p>
+				<p class="caja-3"></p>
+			</div>
+			<strong> En el ejemplo se muestra la caja-2 imponiendose a los demas por el Z-index </strong>
+		</div>
+	</body>
+</html>
